@@ -1,0 +1,70 @@
+.chatcontainer1 {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.ChatMessageChatbot1 {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.ChatMessageChatbot1:hover {
+  transform: translateY(-5px);
+}
+
+.icon-container1 {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  background: linear-gradient(to right, #add8e6, #0000ff);
+  border-radius: 50%;
+}
+
+.icon1 {
+  width: 50px;
+  height: 50px;
+}
+
+.message-contentChatbot1 {
+  flex-grow: 1;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.message-contentChatbot1 h1 {
+  margin: 0;
+  font-size: 1.2em;
+  text-align: left;
+  background: linear-gradient(to right, #add8e6, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.message-contentChatbot1 h2 {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  text-align: left;
+  color: #666;
+}
+.timestamp1 {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.message-contentChatbot1 p {
+  margin: 5px 0 0 0;
+  font-size: 1em;
+  color: #333;
+  text-align: left;
+}

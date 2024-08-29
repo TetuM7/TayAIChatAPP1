@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #add8e6, #0000ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FrontpageHeader {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.userpagecontainer {
+    width: 40vw;
+        height: 90vh;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: rgb(23, 51, 232);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f0f0f0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+}
+
+.userInfoPage {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #0000ff;
+}
+
+.userIcon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #0000ff;
+    margin: 0 auto 20px;
+}
+
+.userIcon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.userInfoPage h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0000ff;
+}
+
+.userInfo {
+    text-align: left;
+    line-height: 1.8;
+    width: 95%;
+}
+
+.infoItem {
+    background-color: #f0f0f0;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #0000ff;
+}
+
+.infoItem strong {
+    color: #0000ff;
+}

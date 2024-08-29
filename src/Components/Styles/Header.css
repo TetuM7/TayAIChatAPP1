@@ -1,0 +1,105 @@
+.headercontainer {
+  width: 100%;
+  height: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 80px 2px -2px gray;
+  position: relative;
+  padding: 0 19px; 
+  box-sizing: border-box; 
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  
+}
+
+.headercontainer::after {
+  content: '';
+  display: block;
+  height: 4px; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.backArrow {
+  width: 10%;
+}
+
+.backArrow img {
+  width: 100%; /* Adjust size */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image scales correctly without distortion */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.logoimg {
+  width: 20%;
+}
+
+.logoimg img {
+  width: 100%; /* Adjust size */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image scales correctly without distortion */
+}
+
+.logotext {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.logotext h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700; 
+  font-size: 4vw; 
+  color: #318ce7; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.logotext .online {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 3vw; 
+  color: green; 
+  margin: 0; 
+  padding: 0; 
+}
+.headicons {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.headicons img {
+  width: 30px; 
+  height: auto; 
+  object-fit: contain; 
+  padding: 5px;
+}
+.mainheadericon-container {
+  width: 20%;
+   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  background: linear-gradient(to right, #add8e6, #0000ff);
+  border-radius: 50%;
+  
+}
+
+.mainheadericon {
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,60 @@
+.headercontainerhv {
+  width: 100%;
+  padding: 20px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.icon-containerH {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  background: linear-gradient(to right, #add8e6, #0000ff);
+  border-radius: 50%;
+}
+
+.iconH {
+  width: 40px;
+  height: 40px;
+}
+
+.logotext {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.logotext h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+  color: #318ce7;
+  margin: 0;
+  padding: 0;
+}
+
+.logotext .online {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: green;
+  margin: 0;
+  padding: 0;
+}
+.backArrow {
+  width: 8%;
+}
+
+.backArrow img {
+  width: 100%; 
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image scales correctly without distortion */
+}

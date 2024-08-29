@@ -1,0 +1,20 @@
+.Endedchatscontainer {
+    padding: 1px;
+width:90%;
+height:50%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: scroll;
+  }
+  
+  .header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+
+  }
+  
